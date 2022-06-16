@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(245, 245, 249);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(245, 245, 249);</string>
+   </property>
+   <widget class="QToolButton" name="emrgcall">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>360</y>
+      <width>266</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>36</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 211, 220);
+color: rgb(25, 25, 25);</string>
+    </property>
+    <property name="text">
+     <string>긴급 호출</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="vilAnnce">
+    <property name="geometry">
+     <rect>
+      <x>266</x>
+      <y>360</y>
+      <width>268</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>36</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 240, 207);
+color: rgb(25, 25, 25);</string>
+    </property>
+    <property name="text">
+     <string>마을 방송</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="dsstAnnce">
+    <property name="geometry">
+     <rect>
+      <x>534</x>
+      <y>360</y>
+      <width>266</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>36</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(207, 237, 236);
+color: rgb(25, 25, 25);</string>
+    </property>
+    <property name="text">
+     <string>재난 방송</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="setting">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>30</y>
+      <width>63</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>-1</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 25, 25);
+background-color: rgb(104, 103, 105);
+border-radius: 10px;
+color: beige;
+font: bold 15px
+</string>
+    </property>
+    <property name="text">
+     <string>설정</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="user">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>0</y>
+      <width>91</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 25, 25);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="datetime">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>90</y>
+      <width>500</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>20</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 25, 25);
+border-bottom-color: rgb(26, 26, 26);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="title">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>25</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 25, 25);
+border-bottom-color: rgb(26, 26, 26);</string>
+    </property>
+    <property name="text">
+     <string>스마트 마을 알림 시스템</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="currentTemp">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>110</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>50</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 25, 25);</string>
+    </property>
+    <property name="text">
+     <string>24°</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weatherDetail">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>220</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 25, 25);</string>
+    </property>
+    <property name="text">
+     <string>최저:14° 최고:28°</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="notice">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>150</y>
+      <width>500</width>
+      <height>210</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 25, 25);</string>
+    </property>
+    <property name="text">
+     <string>현재 실내 온도는 14°입니다.
+ 추우시다면 온도를 조금 올려주세요!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weathertxt">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>220</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>20</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 25, 25);
+border-bottom-color: rgb(26, 26, 26);</string>
+    </property>
+    <property name="text">
+     <string>오늘 날씨</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="currentTemp_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>150</y>
+      <width>110</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>NanumBarunGothic</family>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 25, 25);</string>
+    </property>
+    <property name="text">
+     <string>흐림</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>title</zorder>
+   <zorder>emrgcall</zorder>
+   <zorder>vilAnnce</zorder>
+   <zorder>dsstAnnce</zorder>
+   <zorder>setting</zorder>
+   <zorder>user</zorder>
+   <zorder>datetime</zorder>
+   <zorder>currentTemp</zorder>
+   <zorder>weatherDetail</zorder>
+   <zorder>notice</zorder>
+   <zorder>weathertxt</zorder>
+   <zorder>currentTemp_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
