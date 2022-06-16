@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/weather">
-        <file>cloudy.png</file>
-    </qresource>
-    <qresource prefix="/css"/>
-    <qresource prefix="/icon">
-        <file>emrgicon.png</file>
-    </qresource>
-</RCC>
